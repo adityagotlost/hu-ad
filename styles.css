@@ -171,13 +171,25 @@ body {
 .btn-primary {
     background-color: var(--primary-color);
     color: #fff;
+    border: 1px solid var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    color: var(--primary-color);
 }
 
 .btn-outline {
-    background-color: #fff;
+    background-color: var(--primary-color);
+    color: #fff;
     border: 1px solid var(--primary-color);
+}
+
+.btn-outline:hover {
+    background-color: transparent;
     color: var(--primary-color);
 }
+
 
 /* Grid Layouts */
 .video-grid {
